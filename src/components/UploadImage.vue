@@ -39,7 +39,7 @@ export default {
                 var width = document.body.clientWidth - 400;
                 var height = document.body.clientHeight - 200;
                 var scale = img.width / img.height;
-                var screenScale = width / height;
+                // var screenScale = width / height;
 
                 var imageWidth = 300;
                 var imageHeight = 300 / scale;

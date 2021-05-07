@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-   <h3>image upload show edit download</h3>
-   <UploadImage></UploadImage>
+   <!-- <h3>image upload show edit download</h3> -->
+   <!-- <UploadImage></UploadImage> -->
+   <SearchBox></SearchBox>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import UploadImage from "./components/UploadImage.vue";
+// import HelloWorld from './components/HelloWorld.vue'
+// import UploadImage from "./components/UploadImage.vue";
+import SearchBox from "./pages/SearchBox.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    UploadImage,
+    // HelloWorld,
+    // UploadImage,
+    SearchBox,
   }
 }
 </script>
