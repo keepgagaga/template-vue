@@ -1,24 +1,17 @@
-# template-vue
+# 项目简介
 
-## Project setup
-```
-npm install
-```
+yarn install 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+yarn serve
 
-### Compiles and minifies for production
-```
-npm run build
-```
+距离上次做 web 项目已经有好几个月，最近一直在忙 FLutter 相关项目，个人注意力也都被 Flutter 吸引过去了，以至于刚拿到项目时都不知道如何开始了
 
-### Lints and fixes files
-```
-npm run lint
-```
+最初看到搜索框题目时心里比较大意，以为会很快写完，毕竟只是一个搜索框，只是现实往往最打脸，开头创建项目就因为新装的 oh-my-zsh 卡住了，捣鼓了一会才把初始化项目跑起来
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+这个搜索框题目的难点有两个，一是要完全还原 UI，二是要考虑很多异常情况，两者都需要非常细致地去处理
+
+在 UI 上一开始遇到个纵向上容器高度无法自适应的问题，经查是因为设置了 flex 导致，替换掉 flex 该问题解决
+
+正在搜索中显示加载图表时本来背景上该有个蒙层，但一时没想到合适的方法实现，只好先放着
+
+( 另外设计稿非常棒，看起来就很专业
